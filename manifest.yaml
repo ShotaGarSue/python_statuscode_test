@@ -1,0 +1,6 @@
+applications:
+- name: python_statuscode_test
+  # host: ${default-host}
+  path: .
+  memory: 128M
+  command: python server.py
